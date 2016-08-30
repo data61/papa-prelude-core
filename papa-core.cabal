@@ -1,5 +1,5 @@
 name:               papa-core
-version:            0.2.2
+version:            0.0.1
 license:            OtherLicense
 license-file:       LICENSE
 author:             Tony Morris <ʇǝu˙sıɹɹoɯʇ@ןןǝʞsɐɥ>
@@ -38,7 +38,8 @@ library
                     src
 
   exposed-modules:
-                    Papa.Prelude
+                    Papa.Core
+                    Papa.Core.Prelude
                     
 test-suite doctests
   type:

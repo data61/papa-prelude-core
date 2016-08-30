@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Prelude(
+module Papa.Core.Prelude(
   module P
 ) where
 
