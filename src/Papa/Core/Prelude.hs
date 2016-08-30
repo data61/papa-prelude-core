@@ -201,7 +201,7 @@ import Prelude as P(
 --, readParen
   , until
   , Foldable
---, concatMap                 semigroupoids
+--, concatMap                  semigroupoids
   , isIEEE 
 --, reads 
   , unwords
