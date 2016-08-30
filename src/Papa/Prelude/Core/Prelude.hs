@@ -38,7 +38,7 @@ import Prelude as P(
 --, error 
 --, maxBound
 --, sequence_                  Papa.Core.Data.Foldable
---, (*>)                       semigroupoids
+--, (*>)                       Papa.Prelude.Semigroupoids.Data.Functor.Bind
   , Rational
 --, errorWithoutStackTrace
 --, maximum                    Papa.Prelude.Semigroups.Data.List
@@ -58,7 +58,7 @@ import Prelude as P(
   , exponent
   , mempty 
   , showParen
---, (.)                        semigroupoids
+--, (.)                        Papa.Prelude.Semigroupoids.Data.Semigroupoid
   , RealFloat
 --, fail 
   , min 
@@ -87,7 +87,7 @@ import Prelude as P(
   , floatRange
   , not 
   , sin
---, (<*)                       semigroupoids
+--, (<*)                       Papa.Prelude.Semigroupoids.Data.Functor.Bind
   , Traversable
   , floor 
   , notElem 
@@ -101,7 +101,7 @@ import Prelude as P(
   , foldMap 
   , odd 
   , span
---, (=<<)                      semigroupoids
+--, (=<<)                      Papa.Prelude.Semigroupoids.Data.Functor.Bind
   , (^)
   , foldl
 --, or 
@@ -121,12 +121,12 @@ import Prelude as P(
 --, foldr1                     semigroupoids
 --, pred 
 --, succ
---, (>>)                       semigroupoids
+--, (>>)                       Papa.Prelude.Semigroupoids.Data.Functor.Apply
   , acosh 
 --, fromEnum
 --, print 
   , sum
-  , (>>=)
+--, (>>=)                      Papa.Prelude.Semigroupoids.Data.Functor.Bind
   , all 
   , fromInteger
   , product 
@@ -196,12 +196,12 @@ import Prelude as P(
 --, readLn 
   , unlines
   , Floating
---, concat                     semigroupoids
+--, concat                     Papa.Prelude.Semigroupoids.Data.Functor.Bind
   , isDenormalized
 --, readParen
   , until
   , Foldable
---, concatMap                  semigroupoids
+--, concatMap                  Papa.Prelude.Semigroupoids.Data.Functor.Bind
   , isIEEE 
 --, reads 
   , unwords
@@ -261,5 +261,5 @@ import Prelude as P(
     ) 
   , elem 
 --, lookup                     Papa.Core.Data.List
---, scanl1                     semigroupoidss
+--, scanl1                     semigroupoids
  ) 
