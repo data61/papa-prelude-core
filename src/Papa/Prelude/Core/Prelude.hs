@@ -14,7 +14,7 @@ import Prelude as P(
   , Monoid 
 --, enumFrom
 --, mapM                       Papa.Core.Data.Traversable
---, scanr1                     semigroups
+--, scanr1                     semigroupoids
 --, ($!) 
 --, enumFromThen
 --, mapM_                      Papa.Core.Data.Foldable
@@ -22,7 +22,7 @@ import Prelude as P(
   , (&&)
   , Num 
 --, enumFromThenTo
---, mappend                    semigroups
+--, mappend                    Papa.Prelude.Semigroups.Data.List
 --, sequence                   Papa.Core.Data.Traversable
   , (*)
   , Ord 
@@ -48,7 +48,7 @@ import Prelude as P(
   , even 
   , maybe 
 --, showChar
---, (++)                       semigroups
+--, (++)                       Papa.Prelude.Semigroups.Data.List
 --, ReadS 
   , exp 
 --, mconcat                    Papa.Core.Data.Monoid
@@ -95,7 +95,7 @@ import Prelude as P(
   , (<*>)
   , fmap 
   , null 
---, snd                        lens
+--, snd                        Papa.Prelude.Lens.Data.Tuple
   , (<=)
   , Word 
   , foldMap 
@@ -108,7 +108,7 @@ import Prelude as P(
   , splitAt
   , (==) 
   , (^^) 
---, foldl1                     semigroups 
+--, foldl1                     semigroupoids 
   , otherwise
   , sqrt
   , (>) 
@@ -118,7 +118,7 @@ import Prelude as P(
   , subtract
   , (>=) 
   , acos 
---, foldr1                     semigroups
+--, foldr1                     semigroupoids
 --, pred 
 --, succ
 --, (>>)                       semigroupoids
@@ -146,7 +146,7 @@ import Prelude as P(
   , takeWhile
 --, Bounded 
   , appendFile
---, fst                        lens
+--, fst                        Papa.Prelude.Lens.Data.Tuple
   , putChar 
   , tan
   , Char 
@@ -261,5 +261,5 @@ import Prelude as P(
     ) 
   , elem 
 --, lookup                     Papa.Core.Data.List
---, scanl1                     semigroups
+--, scanl1                     semigroupoidss
  ) 
