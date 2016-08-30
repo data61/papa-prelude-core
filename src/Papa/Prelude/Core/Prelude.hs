@@ -41,7 +41,7 @@ import Prelude as P(
 --, (*>)                       semigroupoids
   , Rational
 --, errorWithoutStackTrace
---, maximum                    semigroups
+--, maximum                    Papa.Prelude.Semigroups.Data.List
 --, show
   , (+) 
 --, Read 
@@ -70,7 +70,7 @@ import Prelude as P(
 --, shows
   , (/=) 
 --, flip                       Papa.Core.Data.Functor
---, minimum                    semigroups
+--, minimum                    Papa.Prelude.Semigroups.Data.List
 --, showsPrec
   , (<) 
 --, Show 
