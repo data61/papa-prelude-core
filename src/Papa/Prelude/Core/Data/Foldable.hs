@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Core.Data.Foldable(
+module Papa.Prelude.Core.Data.Foldable(
   mapM_
 , sequence_
 ) where

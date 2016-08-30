@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Core.Control.Category(
+module Papa.Prelude.Core.Control.Category(
   id
 ) where
 

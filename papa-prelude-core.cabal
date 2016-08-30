@@ -1,4 +1,4 @@
-name:               papa-core
+name:               papa-prelude-core
 version:            0.0.1
 license:            OtherLicense
 license-file:       LICENSE
@@ -8,15 +8,15 @@ copyright:          Copyright (C) 2016 Tony Morris
 synopsis:           Prelude with only useful functions
 category:           Prelude
 description:        Prelude with only useful functions
-homepage:           https://github.com/tonymorris/papa-core
-bug-reports:        https://github.com/tonymorris/papa-core/issues
+homepage:           https://github.com/tonymorris/papa-prelude-core
+bug-reports:        https://github.com/tonymorris/papa-prelude-core/issues
 cabal-version:      >= 1.10
 build-type:         Custom
 extra-source-files: changelog
 
 source-repository   head
   type:             git
-  location:         git@github.com:tonymorris/papa-core.git
+  location:         git@github.com:tonymorris/papa-prelude-core.git
 
 flag                small_base
   description:      Choose the new, split-up base package.
@@ -38,15 +38,15 @@ library
                     src
 
   exposed-modules:
-                    Papa.Core
-                    Papa.Core.Control.Applicative
-                    Papa.Core.Control.Category
-                    Papa.Core.Data.Foldable
-                    Papa.Core.Data.Functor
-                    Papa.Core.Data.List
-                    Papa.Core.Data.Monoid
-                    Papa.Core.Data.Traversable
-                    Papa.Core.Prelude
+                    Papa.Prelude.Core
+                    Papa.Prelude.Core.Control.Applicative
+                    Papa.Prelude.Core.Control.Category
+                    Papa.Prelude.Core.Data.Foldable
+                    Papa.Prelude.Core.Data.Functor
+                    Papa.Prelude.Core.Data.List
+                    Papa.Prelude.Core.Data.Monoid
+                    Papa.Prelude.Core.Data.Traversable
+                    Papa.Prelude.Core.Prelude
                     
 test-suite doctests
   type:

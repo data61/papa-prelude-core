@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Core.Control.Applicative(
+module Papa.Prelude.Core.Control.Applicative(
   const
 , return
 , (>>)

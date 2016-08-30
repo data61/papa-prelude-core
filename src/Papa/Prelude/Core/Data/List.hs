@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Core.Data.List(
+module Papa.Prelude.Core.Data.List(
   reverse
 , lookup
 ) where

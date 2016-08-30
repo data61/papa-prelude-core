@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Core.Data.Functor(
+module Papa.Prelude.Core.Data.Functor(
   map
 , flip
 , unzip

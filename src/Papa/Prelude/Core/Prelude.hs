@@ -1,6 +1,6 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Papa.Core.Prelude(
+module Papa.Prelude.Core.Prelude(
   module P
 ) where
 
@@ -14,7 +14,7 @@ import Prelude as P(
   , Monoid 
 --, enumFrom
 --, mapM                       Papa.Core.Data.Traversable
-  , scanr1
+--, scanr1                     semigroups
 --, ($!) 
 --, enumFromThen
 --, mapM_                      Papa.Core.Data.Foldable
@@ -41,7 +41,7 @@ import Prelude as P(
 --, (*>)                       semigroupoids
   , Rational
 --, errorWithoutStackTrace
---, maximum 
+--, maximum                    semigroups
 --, show
   , (+) 
 --, Read 
@@ -70,7 +70,7 @@ import Prelude as P(
 --, shows
   , (/=) 
 --, flip                       Papa.Core.Data.Functor
---, minimum 
+--, minimum                    semigroups
 --, showsPrec
   , (<) 
 --, Show 
@@ -108,7 +108,7 @@ import Prelude as P(
   , splitAt
   , (==) 
   , (^^) 
---, foldl1 
+--, foldl1                     semigroups 
   , otherwise
   , sqrt
   , (>) 
@@ -118,7 +118,7 @@ import Prelude as P(
   , subtract
   , (>=) 
   , acos 
---, foldr1 
+--, foldr1                     semigroups
 --, pred 
 --, succ
 --, (>>)                       semigroupoids
@@ -261,5 +261,5 @@ import Prelude as P(
     ) 
   , elem 
 --, lookup                     Papa.Core.Data.List
---, scanl1
+--, scanl1                     semigroups
  ) 
