@@ -51,7 +51,7 @@ import Prelude as P(
 --, (++)
 --, ReadS 
   , exp 
---, mconcat 
+--, mconcat                    Papa.Core.Data.Monoid
 --, showList
   , (-) 
   , Real 
