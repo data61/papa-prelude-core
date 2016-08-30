@@ -130,7 +130,7 @@ import Prelude as P(
   , all 
   , fromInteger
   , product 
---, tail
+--, tail                       Papa.Prelude.Lens.Data.List
   , Applicative
   , and 
   , fromIntegral
@@ -173,7 +173,7 @@ import Prelude as P(
   , toRational
   , Enum 
   , atan2 
---, head 
+--, head                       Papa.Prelude.Lens.Data.List 
 --, read 
   , traverse
   , Eq 
@@ -182,7 +182,7 @@ import Prelude as P(
   , readFile
   , truncate
   , break 
---, init 
+--, init                       Papa.Prelude.Lens.Data.List
   , readIO 
   , uncurry
   , FilePath
@@ -226,7 +226,7 @@ import Prelude as P(
   , words
   , IOError 
   , cycle 
---, last 
+--, last                       Papa.Prelude.Lens.Data.List
   , repeat 
   , writeFile
   , Int 
