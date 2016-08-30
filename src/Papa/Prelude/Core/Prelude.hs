@@ -42,7 +42,7 @@ import Prelude as P(
   , Rational
 --, errorWithoutStackTrace
 --, maximum                    Papa.Prelude.Semigroups.Data.List
---, show
+  , show
   , (+) 
 --, Read 
   , even 
@@ -67,18 +67,18 @@ import Prelude as P(
 --, RealFrac
   , filter 
 --, minBound
---, shows
+  , shows
   , (/=) 
 --, flip                       Papa.Core.Data.Functor
 --, minimum                    Papa.Prelude.Semigroups.Data.List
---, showsPrec
+  , showsPrec
   , (<) 
---, Show 
+  , Show 
   , floatDigits
   , mod 
   , significand
   , (<$) 
---, ShowS 
+  , ShowS 
   , floatRadix
   , negate 
   , signum
