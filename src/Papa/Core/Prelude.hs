@@ -58,10 +58,10 @@ import Prelude as P(
   , exponent
   , mempty 
   , showParen
---, (.) 
+--, (.)                        Papa.Core.Control.Category
   , RealFloat
 --, fail 
---, min 
+  , min 
 --, showString
   , (/) 
 --, RealFrac
@@ -69,7 +69,7 @@ import Prelude as P(
 --, minBound
 --, shows
   , (/=) 
-  , flip 
+--, flip                       Papa.Core.Data.Functor
 --, minimum 
 --, showsPrec
   , (<) 
@@ -121,7 +121,7 @@ import Prelude as P(
 --, foldr1 
 --, pred 
 --, succ
---, (>>) 
+--, (>>)                       Papa.Core.Control.Applicative
   , acosh 
 --, fromEnum
 --, print 
@@ -178,7 +178,7 @@ import Prelude as P(
   , traverse
   , Eq 
   , atanh 
---, id 
+--, id                         Papa.Core.Control.Category
   , readFile
   , truncate
   , break 
@@ -206,7 +206,7 @@ import Prelude as P(
 --, reads 
   , unwords
   , Fractional
---, const 
+--, const                      Papa.Core.Control.Applicative
   , isInfinite
   , readsPrec
   , unzip
