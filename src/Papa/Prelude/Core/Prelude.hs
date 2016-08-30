@@ -5,7 +5,7 @@ module Papa.Prelude.Core.Prelude(
 ) where
 
 import Prelude as P(
---  (!!)
+--  (!!)                       Papa.Prelude.Lens.Data.List
     Monad
   , encodeFloat
 --, map                        Papa.Core.Data.Functor
