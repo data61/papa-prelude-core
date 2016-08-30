@@ -2,11 +2,10 @@
 
 module Papa.Core.Data.Monoid(
   mconcat  
-, (++)
 ) where
 
 import Data.Foldable(Foldable, fold)
-import Data.Monoid(Monoid(mappend))
+import Data.Monoid(Monoid)
 
 mconcat ::
   (Monoid a, Foldable f) =>
@@ -14,11 +13,3 @@ mconcat ::
   -> a
 mconcat =
   fold
-
-(++) ::
-  Monoid a =>
-  a
-  -> a
-  -> a
-(++) =
-  mappend

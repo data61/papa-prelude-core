@@ -22,7 +22,7 @@ import Prelude as P(
   , (&&)
   , Num 
 --, enumFromThenTo
-  , mappend 
+--, mappend                    semigroups
 --, sequence                   Papa.Core.Data.Traversable
   , (*)
   , Ord 
@@ -38,7 +38,7 @@ import Prelude as P(
 --, error 
 --, maxBound
 --, sequence_                  Papa.Core.Data.Foldable
-  , (*>) 
+--, (*>)                       semigroupoids
   , Rational
 --, errorWithoutStackTrace
 --, maximum 
@@ -48,7 +48,7 @@ import Prelude as P(
   , even 
   , maybe 
 --, showChar
---, (++)                       Papa.Core.Data.Monoid
+--, (++)                       semigroups
 --, ReadS 
   , exp 
 --, mconcat                    Papa.Core.Data.Monoid
@@ -58,7 +58,7 @@ import Prelude as P(
   , exponent
   , mempty 
   , showParen
---, (.)                        Papa.Core.Control.Category
+--, (.)                        semigroupoids
   , RealFloat
 --, fail 
   , min 
@@ -87,7 +87,7 @@ import Prelude as P(
   , floatRange
   , not 
   , sin
-  , (<*)
+--, (<*)                       semigroupoids
   , Traversable
   , floor 
   , notElem 
@@ -95,15 +95,15 @@ import Prelude as P(
   , (<*>)
   , fmap 
   , null 
---, snd
+--, snd                        lens
   , (<=)
   , Word 
   , foldMap 
   , odd 
   , span
-  , (=<<)
+--, (=<<)                      semigroupoids
   , (^)
-  , foldl 
+  , foldl
 --, or 
   , splitAt
   , (==) 
@@ -121,7 +121,7 @@ import Prelude as P(
 --, foldr1 
 --, pred 
 --, succ
---, (>>)                       Papa.Core.Control.Applicative
+--, (>>)                       semigroupoids
   , acosh 
 --, fromEnum
 --, print 
@@ -146,7 +146,7 @@ import Prelude as P(
   , takeWhile
 --, Bounded 
   , appendFile
---, fst 
+--, fst                        lens
   , putChar 
   , tan
   , Char 
@@ -196,12 +196,12 @@ import Prelude as P(
 --, readLn 
   , unlines
   , Floating
---, concat                     Papa.Core.Control.Monad
+--, concat                     semigroupoids
   , isDenormalized
 --, readParen
   , until
   , Foldable
---, concatMap                  Papa.Core.Control.Monad
+--, concatMap                 semigroupoids
   , isIEEE 
 --, reads 
   , unwords
@@ -237,7 +237,7 @@ import Prelude as P(
   , Integer 
 --, div 
 --, length 
---, return                     Papa.Core.Control.Monad
+--, return                     Papa.Core.Control.Applicative
   , zip3
   , Integral
   , divMod

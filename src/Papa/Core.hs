@@ -6,7 +6,6 @@ module Papa.Core(
 
 import Papa.Core.Control.Applicative as P
 import Papa.Core.Control.Category as P
-import Papa.Core.Control.Monad as P
 import Papa.Core.Data.Foldable as P
 import Papa.Core.Data.Functor as P
 import Papa.Core.Data.List as P
