@@ -83,7 +83,7 @@ import Prelude as P(
   , negate 
   , signum
   , (<$>)
-  , String 
+--, String 
   , floatRange
   , not 
   , sin
