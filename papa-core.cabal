@@ -41,6 +41,7 @@ library
                     Papa.Core
                     Papa.Core.Data.Foldable
                     Papa.Core.Data.Functor
+                    Papa.Core.Data.Monoid
                     Papa.Core.Data.Traversable
                     Papa.Core.Prelude
                     

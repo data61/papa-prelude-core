@@ -22,4 +22,3 @@ sequence_ ::
   -> f ()
 sequence_ =
   sequenceA_
-  
