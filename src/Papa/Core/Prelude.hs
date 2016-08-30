@@ -201,16 +201,16 @@ import Prelude as P(
 --, readParen
   , until
   , Foldable
---, concatMap
+--, concatMap                  Papa.Core.Control.Monad
   , isIEEE 
 --, reads 
   , unwords
   , Fractional
 --, const                      Papa.Core.Control.Applicative
   , isInfinite
-  , readsPrec
-  , unzip
-  , Functor 
+--, readsPrec
+--, unzip                      Papa.Core.Data.Functor
+  , Functor
   , cos 
   , isNaN 
   , realToFrac
@@ -237,12 +237,12 @@ import Prelude as P(
   , Integer 
 --, div 
 --, length 
---, return 
+--, return                     Papa.Core.Control.Monad
   , zip3
   , Integral
-  , divMod 
-  , lex 
---, reverse 
+  , divMod
+--, lex 
+--, reverse                    Papa.Core.Data.List
   , zipWith
   , drop 
   , lines 
@@ -260,6 +260,6 @@ import Prelude as P(
     , Just
     ) 
   , elem 
-  , lookup 
+--, lookup                     Papa.Core.Data.List
 --, scanl1
  ) 

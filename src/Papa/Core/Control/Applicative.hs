@@ -2,6 +2,7 @@
 
 module Papa.Core.Control.Applicative(
   const
+, return
 , (>>)
 ) where
 
@@ -12,6 +13,13 @@ const ::
   a
   -> f a
 const =
+  pure
+
+return ::
+  Applicative f =>
+  a
+  -> f a
+return =
   pure
 
 (>>) ::
