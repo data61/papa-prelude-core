@@ -48,7 +48,7 @@ import Prelude as P(
   , even 
   , maybe 
 --, showChar
---, (++)
+--, (++)                       Papa.Core.Data.Monoid
 --, ReadS 
   , exp 
 --, mconcat                    Papa.Core.Data.Monoid
