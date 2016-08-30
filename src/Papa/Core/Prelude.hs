@@ -7,28 +7,28 @@ module Papa.Core.Prelude(
 import Prelude as P(
 --  (!!)
     Monad
---, encodeFloat
---, map 
+  , encodeFloat
+--, map                        Papa.Core.Data.Functor
   , scanr
   , ($)
   , Monoid 
 --, enumFrom
---, mapM 
+--, mapM                       Papa.Core.Data.Traversable
   , scanr1
 --, ($!) 
 --, enumFromThen
---, mapM_ 
+--, mapM_                      Papa.Core.Data.Foldable
 --, seq
   , (&&)
   , Num 
 --, enumFromThenTo
   , mappend 
---, sequence
+--, sequence                   Papa.Core.Data.Traversable
   , (*)
   , Ord 
 --, enumFromTo
---, max 
---, sequenceA
+  , max 
+  , sequenceA
   , (**)
   , Ordering(
       LT
@@ -37,7 +37,7 @@ import Prelude as P(
     )
 --, error 
 --, maxBound
---, sequence_
+--, sequence_                  Papa.Core.Data.Foldable
   , (*>) 
   , Rational
 --, errorWithoutStackTrace

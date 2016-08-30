@@ -39,6 +39,9 @@ library
 
   exposed-modules:
                     Papa.Core
+                    Papa.Core.Data.Foldable
+                    Papa.Core.Data.Functor
+                    Papa.Core.Data.Traversable
                     Papa.Core.Prelude
                     
 test-suite doctests
