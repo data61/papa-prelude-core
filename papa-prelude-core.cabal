@@ -26,7 +26,7 @@ library
                     Haskell2010
 
   build-depends:
-                    base >= 4.8 && < 4.8
+                    base >= 4.8 && < 5
 
   ghc-options:
                     -Wall
