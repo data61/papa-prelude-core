@@ -9,12 +9,12 @@ import Prelude as P(
     Monad
   , encodeFloat
 --, map                        Papa.Core.Data.Functor
-  , scanr
+--, scanr                      Papa.Prelude.Semigroups.Data.List
   , ($)
   , Monoid 
 --, enumFrom
 --, mapM                       Papa.Core.Data.Traversable
---, scanr1                     semigroupoids
+  , scanr1
 --, ($!) 
 --, enumFromThen
 --, mapM_                      Papa.Core.Data.Foldable
@@ -108,7 +108,7 @@ import Prelude as P(
   , splitAt
   , (==) 
   , (^^) 
---, foldl1                     semigroupoids 
+--, foldl1                     Papa.Prelude.Semigroups.Data.List 
   , otherwise
   , sqrt
   , (>) 
@@ -118,7 +118,7 @@ import Prelude as P(
   , subtract
   , (>=) 
   , acos 
---, foldr1                     semigroupoids
+--, foldr1                     Papa.Prelude.Semigroups.Data.List
 --, pred 
 --, succ
 --, (>>)                       Papa.Prelude.Semigroupoids.Data.Functor.Apply
@@ -254,12 +254,12 @@ import Prelude as P(
   , (||)
   , either 
   , logBase 
-  , scanl
+--, scanl                      Papa.Prelude.Semigroups.Data.List
   , Maybe(
       Nothing
     , Just
     ) 
   , elem 
 --, lookup                     Papa.Core.Data.List
---, scanl1                     semigroupoids
+  , scanl1
  ) 
