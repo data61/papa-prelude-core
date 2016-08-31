@@ -5,8 +5,8 @@ module Papa.Prelude.Core.Data.List(
 , lookup
 ) where
 
-import Data.Eq
-import Data.Maybe
+import Data.Eq(Eq((==)))
+import Data.Maybe(Maybe(Nothing, Just))
 import Control.Applicative((<|>))
 import Data.Foldable(Foldable(foldr))
 import qualified Data.List as List(reverse)
